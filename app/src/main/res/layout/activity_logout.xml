@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logout">
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:textColor="#EF5350"/>
+
+    <ImageView
+        android:id="@+id/cntrimg"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+     android:layout_marginTop="40dp"
+        android:layout_below="@+id/one"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cntrimg"
+        android:id="@+id/name2"
+        android:text="Username:"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+    android:layout_centerVertical="true"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_toRightOf="@+id/name2"
+        android:text="name"
+        android:layout_below="@+id/cntrimg"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email2"
+        android:layout_below="@+id/name2"
+        android:layout_marginTop="10dp"
+        android:text="Email:"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_toRightOf="@+id/email2"
+        android:layout_below="@+id/name2"
+        android:layout_marginTop="10dp"
+        android:text="email"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/curb"
+
+        android:backgroundTint="#EF5350"
+        android:text="Sign out"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

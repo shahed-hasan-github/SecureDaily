@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItem1"
+        android:title="Scan Documents"/>
+
+    <item
+        android:id="@+id/menuItem2"
+        android:title="Logout"/>
+
+    <!-- Add more menu items as needed -->
+
+</menu>
